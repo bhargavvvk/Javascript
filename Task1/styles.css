@@ -1,0 +1,68 @@
+body{
+    background-color: lightgray;
+}
+.title{
+    color: blue;
+    text-align: center; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkblue;
+}
+
+.task-item{
+    list-style-type: none;
+}
+
+.delete-btn{
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.task-item{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px; /* match input width */
+}
+
+.task-text{
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+}
