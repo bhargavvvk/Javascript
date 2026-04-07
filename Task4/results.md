@@ -1,13 +1,10 @@
 ##Task-4
 
-# 🌦️ Weather App with API Integration
-
-## 📌 Objective
-Build a weather application that fetches and displays real-time weather data based on a user-provided city name using an external API.
+#  Weather App with API Integration
 
 ---
 
-## 🚀 Features
+##Features
 - Search weather by city name
 - Display:
   - 🌡️ Temperature
