@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+     <h1 class="title">Quiz</h1>
+    <div>
+        <div class="instructions">
+            <h1 class="title-1">Quiz Instructions</h1>
+            <p>Welcome to the quiz! Please read the instructions carefully before starting.</p>
+            <p>Answer the following question with one correct answer.</p>
+            <p>Do not refresh the page.</p>
+            <p>Click the "Next" button to submit your answer.</p>
+
+
+        </div>
+        <div class="container">
+            <div class="question" id="question">
+                <h2 class="question" id="question-text">
+                    Question will appear here
+                </h2>
+            </div>
+            <div class="options" id="options">
+                <div>
+                    <input type="radio" id="option1" name="option" value="0`">
+                    <label for="option1" id="label1" class="option option1">Option 1</label>
+                </div>
+                <div>
+                    <input type="radio" id="option2" name="option" value="1">
+                    <label for="option2" id="label2" class="option option2">Option 2</label>
+                </div>
+                <div>
+                    <input type="radio" id="option3" name="option" value="2">
+                    <label for="option3" id="label3" class="option option3">Option 3</label>
+                </div>
+                <div>
+                    <input type="radio" id="option4" name="option" value="3">
+                    <label for="option4" id="label4" class="option option4">Option 4</label>
+                </div>
+            </div>
+            <button id="next" class="btn">Next</button>
+             <div class="feedback" id="feedback">
+            <p id="feedback-text"></p>
+    </div>
+        </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
